@@ -66,7 +66,7 @@ if section == "Home":
     # Yasin 36:9
     ayet1 = "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَـٰهُمْ فَهُمْ لَا يُبْصِرُونَ"
     animated_ayet_card("Yā-Sīn, 36:9", ayet1,
-                       "Önlerine bir set, arkalarına da bir set çektik. Böylece onları kuşattık, artık göremezler.",
+                       "Onların önlerine bir set, arkalarına bir set yaptık; böylece onları öylesine perdeleyip kuşattık ki artık hiçbir şey göremezler.",
                        "And We have set before them a barrier and behind them a barrier and covered them, so they do not see.")
 
     if st.button("📋 Copy Yā-Sīn 36:9 Arabic"):
@@ -77,7 +77,7 @@ if section == "Home":
     # Al-Anfal 8:30
     ayet2 = "وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا۟ لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ ۚ وَيَمْكُرُونَ وَيَمْكُرُ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَـٰكِرِينَ"
     animated_ayet_card("Al-Anfāl, 8:30", ayet2,
-                       "Ey Muhammed! Hani inkâr edenler seni tutuklamak, öldürmek veya sürgün etmek için tuzak kuruyorlardı. Allah da onların tuzaklarını boşa çıkarıyordu. Allah tuzak kuranların en hayırlısıdır.",
+                       "Hani bir zamanlar kâfirler ya seni tutuklayıp hapsetmek veya öldürmek ya da yurdundan zorla çıkarmak için bir takım tuzaklar kuruyorlardı. Onlar böyle tuzaklar hazırlayadursunlar, ama Allah da onların tuzaklarına karşılık verecektir. Çünkü Allah, tuzak kuranlara en güzel karşılığı verendir.",
                        "And [remember, O Muhammad], when those who disbelieved plotted against you to restrain you or kill you or evict you. But they plan, and Allah plans. And Allah is the best of planners.")
 
     if st.button("📋 Copy Al-Anfāl 8:30 Arabic"):
