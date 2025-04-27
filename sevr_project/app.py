@@ -193,15 +193,118 @@ elif section == "Hijrah Timeline":
     """)
 
 elif section == "Quiz":
-    st.title("🧠 Test Your Knowledge")
-    st.markdown("### How many days did Prophet Muhammad and Abu Bakr stay in the Cave of Thawr?")
-    answer = st.radio("Choose one:", ["1 day", "2 days", "3 days", "4 days"])
+    st.title("🧠 Test Your Knowledge About the Cave of Thawr")
 
-    if st.button("Check Answer"):
-        if answer == "3 days":
-            st.success("✅ Correct! They stayed 3 days.")
+    # Question 1
+    st.markdown("### 1. How many days did Prophet Muhammad and Abu Bakr stay in the Cave of Thawr?")
+    q1 = st.radio("Choose one:", ["1 day", "2 days", "3 days", "4 days"], key="q1")
+    if st.button("Check Answer 1"):
+        if q1 == "3 days":
+            st.success("✅ Correct!")
         else:
-            st.error("❌ Incorrect. The correct answer is 3 days.")
+            st.error("❌ Incorrect. Correct answer: 3 days.")
+
+    st.markdown("---")
+
+    # Question 2
+    st.markdown("### 2. Where is the Cave of Thawr located?")
+    q2 = st.radio("Choose one:", ["Mecca", "Medina", "Taif", "Jerusalem"], key="q2")
+    if st.button("Check Answer 2"):
+        if q2 == "Mecca":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: Mecca.")
+
+    st.markdown("---")
+
+    # Question 3
+    st.markdown("### 3. How far is the Cave of Thawr from Mecca approximately?")
+    q3 = st.radio("Choose one:", ["2 km", "5 km", "10 km", "15 km"], key="q3")
+    if st.button("Check Answer 3"):
+        if q3 == "5 km":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: 5 km.")
+
+    st.markdown("---")
+
+    # Question 4
+    st.markdown("### 4. Who was the companion with Prophet Muhammad in the cave?")
+    q4 = st.radio("Choose one:", ["Umar ibn al-Khattab", "Ali ibn Abi Talib", "Abu Bakr as-Siddiq", "Bilal ibn Rabah"], key="q4")
+    if st.button("Check Answer 4"):
+        if q4 == "Abu Bakr as-Siddiq":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: Abu Bakr as-Siddiq.")
+
+    st.markdown("---")
+
+    # Question 5
+    st.markdown("### 5. What miraculous event protected the cave from being discovered?")
+    q5 = st.radio("Choose one:", ["A tree grew overnight", "A spider spun a web and pigeons nested", "A sandstorm covered the entrance", "Angels stood guard"], key="q5")
+    if st.button("Check Answer 5"):
+        if q5 == "A spider spun a web and pigeons nested":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: A spider spun a web and pigeons nested.")
+
+    st.markdown("---")
+
+    # Question 6
+    st.markdown("### 6. Who was the guide that led the Prophet and Abu Bakr to Medina?")
+    q6 = st.radio("Choose one:", ["Abdullah ibn Uraiqit", "Salman al-Farsi", "Zayd ibn Haritha", "Abu Dharr al-Ghifari"], key="q6")
+    if st.button("Check Answer 6"):
+        if q6 == "Abdullah ibn Uraiqit":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: Abdullah ibn Uraiqit.")
+
+    st.markdown("---")
+
+    # Question 7
+    st.markdown("### 7. Which Surah mentions Allah protecting Prophet Muhammad during the Hijrah?")
+    q7 = st.radio("Choose one:", ["Surah Al-Baqarah", "Surah Al-Anfal", "Surah At-Tawbah", "Surah Al-Mulk"], key="q7")
+    if st.button("Check Answer 7"):
+        if q7 == "Surah At-Tawbah":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: Surah At-Tawbah.")
+
+    st.markdown("---")
+
+    # Question 8
+    st.markdown("### 8. What livestock did Amir ibn Fuhayrah herd near the cave to cover tracks?")
+    q8 = st.radio("Choose one:", ["Cows", "Camels", "Sheep", "Horses"], key="q8")
+    if st.button("Check Answer 8"):
+        if q8 == "Sheep":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: Sheep.")
+
+    st.markdown("---")
+
+    # Question 9
+    st.markdown("### 9. What did Abu Bakr block the cave holes with?")
+    q9 = st.radio("Choose one:", ["Rocks", "Pieces of his own clothes", "Mud", "Sticks"], key="q9")
+    if st.button("Check Answer 9"):
+        if q9 == "Pieces of his own clothes":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: Pieces of his own clothes.")
+
+    st.markdown("---")
+
+    # Question 10
+    st.markdown("### 10. Which foot of Abu Bakr was bitten by a snake in the cave?")
+    q10 = st.radio("Choose one:", ["Left foot", "Right foot", "Both feet", "His hand was bitten instead"], key="q10")
+    if st.button("Check Answer 10"):
+        if q10 == "Left foot":
+            st.success("✅ Correct!")
+        else:
+            st.error("❌ Incorrect. Correct answer: Left foot.")
+
+    st.markdown("---")
+
 
 elif section == "Reflection":
     st.title("🧠 Reflection")
